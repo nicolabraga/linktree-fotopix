@@ -1,9 +1,13 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 13/06/2026 12:07
+// Atualizado em: 14/06/2026 08:14
 window.LINKS_DATA = {
-  "updated_at": "13/06/2026 12:07",
+  "updated_at": "14/06/2026 08:14",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/221d22",
+        "text": "Beira Mar - Fortaleza - 14/06/2026"
+    },
     {
         "href": "https://fotopix.com.br/album/221d1f",
         "text": "Beira Mar - Fortaleza - 13/06/2026"
@@ -58,7 +62,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/220530",
-        "text": "3ÃÂ° Circuito Peter Pan - CE- Fortaleza 07/06/2026"
+        "text": "3ÃÂÃÂ° Circuito Peter Pan - CE- Fortaleza 07/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/21ab23",
@@ -350,7 +354,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/2004b7",
-        "text": "3ÃÂ° CORRIDA DO CHOQUEANO - Fortaleza - 03/05/2026"
+        "text": "3ÃÂÃÂ° CORRIDA DO CHOQUEANO - Fortaleza - 03/05/2026"
     },
     {
         "href": "https://fotopix.com.br/album/1fd6cd",
@@ -414,7 +418,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/1f888d",
-        "text": "Corrida da ConstruÃÂ§ÃÂ£o - Fortaleza - 26/04/2026"
+        "text": "Corrida da ConstruÃÂÃÂ§ÃÂÃÂ£o - Fortaleza - 26/04/2026"
     },
     {
         "href": "https://fotopix.com.br/album/1f8884",
@@ -490,7 +494,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/1ecc53",
-        "text": "3ÃÂª CORRIDA POLÃÂCIA PENAL DO CEARÃÂ - Fortaleza - 19//04/2026"
+        "text": "3ÃÂÃÂª CORRIDA POLÃÂÃÂCIA PENAL DO CEARÃÂÃÂ - Fortaleza - 19//04/2026"
     },
     {
         "href": "https://fotopix.com.br/album/1ecc4b",
@@ -674,7 +678,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/1de7a9",
-        "text": "ESTAÃÂÃÂES - OUTONO - 2026 - Fortaleza - 29//03/2026"
+        "text": "ESTAÃÂÃÂÃÂÃÂES - OUTONO - 2026 - Fortaleza - 29//03/2026"
     },
     {
         "href": "https://fotopix.com.br/album/1de7a1",
@@ -930,7 +934,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/1c744d",
-        "text": "1ÃÂª etapa do Sprint Triathlon da FETRIECE - Cumbuco - 28//02/2026"
+        "text": "1ÃÂÃÂª etapa do Sprint Triathlon da FETRIECE - Cumbuco - 28//02/2026"
     },
     {
         "href": "https://fotopix.com.br/album/1c4b10",
@@ -1422,7 +1426,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/1a9068",
-        "text": "Porto SaÃÂºde Track &amp; Field Experience Limiar IV! - Fortaleza - 11//01/2026"
+        "text": "Porto SaÃÂÃÂºde Track &amp; Field Experience Limiar IV! - Fortaleza - 11//01/2026"
     },
     {
         "href": "https://fotopix.com.br/album/1a50d2",
