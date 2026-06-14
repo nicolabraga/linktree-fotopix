@@ -1,12 +1,16 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 14/06/2026 08:14
+// Atualizado em: 14/06/2026 12:00
 window.LINKS_DATA = {
-  "updated_at": "14/06/2026 08:14",
+  "updated_at": "14/06/2026 12:00",
   "links": [
     {
         "href": "https://fotopix.com.br/album/221d22",
         "text": "Beira Mar - Fortaleza - 14/06/2026"
+    },
+    {
+        "href": "https://fotopix.com.br/album/226456",
+        "text": "Simulado Santitreinos - Fortaleza - 14/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/221d1f",
