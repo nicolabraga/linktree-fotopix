@@ -1,8 +1,8 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 19/06/2026 08:21
+// Atualizado em: 19/06/2026 08:39
 window.LINKS_DATA = {
-  "updated_at": "19/06/2026 08:21",
+  "updated_at": "19/06/2026 08:39",
   "links": [
     {
       "href": "https://fotopix.com.br/album/226bf2",
@@ -35,6 +35,10 @@ window.LINKS_DATA = {
     {
       "href": "https://fotopix.com.br/album/226bc0",
       "text": "Beira Mar - Fortaleza - 16/06/2026"
+    },
+    {
+      "href": "https://fotopix.com.br/album/226bbb",
+      "text": "Sabiaguaba - Fortaleza - 16/06/2026"
     },
     {
       "href": "https://fotopix.com.br/album/226b8e",
@@ -109,16 +113,12 @@ window.LINKS_DATA = {
       "text": "Beira Mar - Fortaleza - 07/06/2026"
     },
     {
-      "href": "https://fotopix.com.br/album/226bbb",
-      "text": "Sabiaguaba - Fortaleza - 16/06/2026"
-    },
-    {
       "href": "https://fotopix.com.br/album/220538",
       "text": "Corrida do Vozao - CE- Fortaleza 07/06/2026"
     },
     {
       "href": "https://fotopix.com.br/album/220530",
-      "text": "3Â° Circuito Peter Pan - CE- Fortaleza 07/06/2026"
+      "text": "3° Circuito Peter Pan - CE- Fortaleza 07/06/2026"
     },
     {
       "href": "https://fotopix.com.br/album/21aaf5",
@@ -310,7 +310,7 @@ window.LINKS_DATA = {
     },
     {
       "href": "https://fotopix.com.br/album/208c78",
-      "text": "Track & Field Run Series RioMar - Fortaleza 17/05/2026"
+      "text": "Track &amp; Field Run Series RioMar - Fortaleza 17/05/2026"
     },
     {
       "href": "https://fotopix.com.br/album/208c08",
@@ -414,7 +414,7 @@ window.LINKS_DATA = {
     },
     {
       "href": "https://fotopix.com.br/album/2004b7",
-      "text": "3Â° CORRIDA DO CHOQUEANO - Fortaleza - 03/05/2026"
+      "text": "3° CORRIDA DO CHOQUEANO - Fortaleza - 03/05/2026"
     },
     {
       "href": "https://fotopix.com.br/album/1fb1ac",
@@ -474,11 +474,11 @@ window.LINKS_DATA = {
     },
     {
       "href": "https://fotopix.com.br/album/1f888d",
-      "text": "Corrida da ConstruÃ§Ã£o - Fortaleza - 26/04/2026"
+      "text": "Corrida da Construção - Fortaleza - 26/04/2026"
     },
     {
       "href": "https://fotopix.com.br/album/1f8884",
-      "text": "Track & Field Running TS Coco Bambu - Fortaleza - 26/04/2026"
+      "text": "Track &amp; Field Running TS Coco Bambu - Fortaleza - 26/04/2026"
     },
     {
       "href": "https://fotopix.com.br/album/1f887d",
@@ -550,7 +550,7 @@ window.LINKS_DATA = {
     },
     {
       "href": "https://fotopix.com.br/album/1ecc53",
-      "text": "3Âª CORRIDA POLÃCIA PENAL DO CEARÃ - Fortaleza - 19//04/2026"
+      "text": "3ª CORRIDA POLÍCIA PENAL DO CEARÁ - Fortaleza - 19//04/2026"
     },
     {
       "href": "https://fotopix.com.br/album/1ecc1f",
@@ -607,10 +607,6 @@ window.LINKS_DATA = {
     {
       "href": "https://fotopix.com.br/album/1ec259",
       "text": "Beira Mar - Tarde/Noite - Fortaleza - 12/04/2026"
-    },
-    {
-      "href": "https://fotopix.com.br/album/1e8d30",
-      "text": "MARATONA INTERNACIONAL DE FORTALEZA - 12//04/2026"
     },
     {
       "href": "https://fotopix.com.br/album/1e8d2f",
@@ -734,7 +730,7 @@ window.LINKS_DATA = {
     },
     {
       "href": "https://fotopix.com.br/album/1de7a9",
-      "text": "ESTAÃÃES - OUTONO - 2026 - Fortaleza - 29//03/2026"
+      "text": "ESTAÇÕES - OUTONO - 2026 - Fortaleza - 29//03/2026"
     },
     {
       "href": "https://fotopix.com.br/album/1de798",
@@ -857,10 +853,6 @@ window.LINKS_DATA = {
       "text": "Beira Mar - Fortaleza - 16//03/2026"
     },
     {
-      "href": "https://fotopix.com.br/album/1cc153",
-      "text": "LIVE! RUN XP - FORTALEZA 2026 - Fortaleza - 15//03/2026"
-    },
-    {
       "href": "https://fotopix.com.br/album/1cc149",
       "text": "Beira Mar - Tarde/Noite - Fortaleza - 14/03/2026"
     },
@@ -929,10 +921,6 @@ window.LINKS_DATA = {
       "text": "Beira Mar - Tarde/Noite - Fortaleza - 07/03/2026"
     },
     {
-      "href": "https://fotopix.com.br/album/1c9b99",
-      "text": "Beira Mar - Fortaleza - 07//03/2026"
-    },
-    {
       "href": "https://fotopix.com.br/album/1c9b97",
       "text": "Beira Mar - Tarde/Noite - Fortaleza - 06/03/2026"
     },
@@ -989,10 +977,6 @@ window.LINKS_DATA = {
       "text": "Beira Mar - Tarde/Noite - Fortaleza - 01/03/2026"
     },
     {
-      "href": "https://fotopix.com.br/album/1c4b10",
-      "text": "Santander Track&Field Run Series - Del Paseo I - Fortaleza - 01//03/2026"
-    },
-    {
       "href": "https://fotopix.com.br/album/1c4afb",
       "text": "Beira Mar - Tarde/Noite - Fortaleza - 28/02/2026"
     },
@@ -1002,7 +986,7 @@ window.LINKS_DATA = {
     },
     {
       "href": "https://fotopix.com.br/album/1c744d",
-      "text": "1Âª etapa do Sprint Triathlon da FETRIECE - Cumbuco - 28//02/2026"
+      "text": "1ª etapa do Sprint Triathlon da FETRIECE - Cumbuco - 28//02/2026"
     },
     {
       "href": "https://fotopix.com.br/album/1c4af0",
@@ -1478,7 +1462,7 @@ window.LINKS_DATA = {
     },
     {
       "href": "https://fotopix.com.br/album/1a9068",
-      "text": "Porto SaÃºde Track & Field Experience Limiar IV! - Fortaleza - 11//01/2026"
+      "text": "Porto Saúde Track &amp; Field Experience Limiar IV! - Fortaleza - 11//01/2026"
     },
     {
       "href": "https://fotopix.com.br/album/1a90bd",
@@ -1563,6 +1547,22 @@ window.LINKS_DATA = {
     {
       "href": "https://fotopix.com.br/album/1a50a2",
       "text": "Beira Mar - Tarde/Noite - Fortaleza - 01/01/2026"
+    },
+    {
+      "href": "https://fotopix.com.br/album/1e8d30",
+      "text": "MARATONA INTERNACIONAL DE FORTALEZA - 12//04/2026"
+    },
+    {
+      "href": "https://fotopix.com.br/album/1cc153",
+      "text": "LIVE! RUN XP - FORTALEZA 2026 - Fortaleza - 15//03/2026"
+    },
+    {
+      "href": "https://fotopix.com.br/album/1c9b99",
+      "text": "Beira Mar - Fortaleza - 07//03/2026"
+    },
+    {
+      "href": "https://fotopix.com.br/album/1c4b10",
+      "text": "Santander Track&Field Run Series - Del Paseo I - Fortaleza - 01//03/2026"
     }
   ]
 };
