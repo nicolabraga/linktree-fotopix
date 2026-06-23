@@ -1,8 +1,8 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 23/06/2026 08:01
+// Atualizado em: 23/06/2026 08:18
 window.LINKS_DATA = {
-  "updated_at": "23/06/2026 08:01",
+  "updated_at": "23/06/2026 08:18",
   "links": [
     {
         "href": "https://fotopix.com.br/album/22cd8c",
@@ -14,7 +14,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/22cd80",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 22/06/2026 - Ãlbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 22/06/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/22cd7c",
@@ -22,7 +22,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/226c88",
-        "text": "3Âª CORRIDA ENTRE AMIGOS - HEXA RUN - CE- Fortaleza 21/06/2026"
+        "text": "3ª CORRIDA ENTRE AMIGOS - HEXA RUN - CE- Fortaleza 21/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/226c70",
@@ -1592,5 +1592,5 @@ window.LINKS_DATA = {
         "href": "https://fotopix.com.br/album/1a50a2",
         "text": "Beira Mar - Tarde/Noite - Fortaleza - 01/01/2026"
     }
-  ]
+]
 };
