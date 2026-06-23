@@ -1,13 +1,9 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 23/06/2026 19:27
+// Atualizado em: 23/06/2026 20:18
 window.LINKS_DATA = {
-  "updated_at": "23/06/2026 19:27",
+  "updated_at": "23/06/2026 20:18",
   "links": [
-    {
-        "href": "https://fotopix.com.br/album/22cd91",
-        "text": "Este álbum só pode ser acessado pelo aplicativo Banlek 📱"
-    },
     {
         "href": "https://fotopix.com.br/album/22cd8c",
         "text": "Beira Mar - Fortaleza - 23/06/2026 - Álbum de Fotos de Corrida"
