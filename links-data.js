@@ -1,8 +1,8 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 27/06/2026 19:26
+// Atualizado em: 28/06/2026 07:49
 window.LINKS_DATA = {
-  "updated_at": "27/06/2026 19:26",
+  "updated_at": "28/06/2026 07:49",
   "links": [
     {
         "href": "https://fotopix.com.br/album/22ce2d",
