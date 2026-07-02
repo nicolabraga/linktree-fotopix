@@ -321,7 +321,7 @@
   <div class="section-head">
     <span class="updated-tag" id="updatedAt"></span>
     <button class="btn-refresh" id="btnRefresh" onclick="hardRefresh()">
-      <span class="ri">â†º</span> Atualizar
+      <span class="ri">↺</span> Atualizar
     </button>
   </div>
 
@@ -364,7 +364,7 @@
   }
 
   function stripDate(text) {
-    return text.replace(/\s*[-â€“]\s*\d{2}[\/]{1,2}\d{2}[\/]{1,2}\d{4}/, '').replace(/\s*-\s*$/, '').trim();
+    return text.replace(/\s*[-–]\s*\d{2}[\/]{1,2}\d{2}[\/]{1,2}\d{4}/, '').replace(/\s*-\s*$/, '').trim();
   }
 
   function render() {
