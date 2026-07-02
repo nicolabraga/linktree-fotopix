@@ -119,7 +119,7 @@
       max-width: 300px;
     }
 
-    /* â”€â”€ STATS strip â”€â”€ */
+    /* -- STATS strip -- */
     .stats { display: flex; gap: 8px; width: 100%; margin-bottom: 22px; }
     .stat-pill {
       flex: 1; display: flex; flex-direction: column; align-items: center;
@@ -130,7 +130,7 @@
     .stat-num { font-size: 1.1rem; font-weight: 700; color: var(--brand-lite); }
     .stat-lbl { font-size: 0.66rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
 
-    /* â”€â”€ Section label â”€â”€ */
+    /* -- Section label -- */
     .fixed-label {
       width: 100%; font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
       letter-spacing: 0.16em; color: var(--muted); margin-bottom: 10px;
@@ -197,7 +197,7 @@
       50%      { box-shadow: 0 0 10px 3px rgba(43,227,209,0.55); }
     }
 
-    /* Featured (top 5) â€” maior Ãªnfase visual */
+    /* Featured (top 5) - maior ênfase visual */
     .link-card.featured {
       padding: 18px 17px;
       background: linear-gradient(135deg, rgba(4,168,157,0.10), rgba(255,255,255,0.045));
@@ -271,14 +271,14 @@
       <img src="https://d2hk32cswy6zx7.cloudfront.net/fotografos/v2_62873ec3-a5f3-4141-afde-af6d72fc205d.jpg" alt="FotoPix" />
     </div>
     <h1 class="hero-name">FotoPix</h1>
-    <p class="hero-bio">Fotografia Esportiva em Fortaleza 📍<br>Aqui tratamos com qualidade, sonhos!<br>Suas fotos vocÃª encontra aqui ðŸ‘‡</p>
+    <p class="hero-bio">Fotografia Esportiva em Fortaleza 📍<br>Aqui tratamos com qualidade, sonhos!<br>Suas fotos você encontra aqui ðŸ‘‡</p>
   </div>
 
   <!-- Stats -->
   <div class="stats" id="statsStrip" style="display:none">
     <div class="stat-pill">
       <span class="stat-num" id="statAlbuns">â€”</span>
-      <span class="stat-lbl">Ãlbuns</span>
+      <span class="stat-lbl">Álbuns</span>
     </div>
     <div class="stat-pill">
       <span class="stat-num" id="statMeses">6</span>
@@ -316,7 +316,7 @@
   </div>
 
   <!-- Separador -->
-  <div class="divider"><span>Ãlbuns recentes</span></div>
+  <div class="divider"><span>Álbuns recentes</span></div>
 
   <div class="section-head">
     <span class="updated-tag" id="updatedAt"></span>
@@ -325,7 +325,7 @@
     </button>
   </div>
 
-  <!-- Cards dinÃ¢micos -->
+  <!-- Cards dinâmicos -->
   <div class="links" id="linksContainer"></div>
 
   <!-- Footer -->
@@ -372,7 +372,7 @@
     if (!window.LINKS_DATA || !window.LINKS_DATA.links || !window.LINKS_DATA.links.length) {
       container.innerHTML = `<div style="text-align:center;padding:40px 16px;color:var(--muted);font-size:0.875rem;">
         <div style="font-size:2rem;margin-bottom:12px;">ðŸ“‚</div>
-        Nenhum Ã¡lbum carregado ainda.</div>`;
+        Nenhum álbum carregado ainda.</div>`;
       return;
     }
 
@@ -388,7 +388,7 @@
     document.getElementById('statAlbuns').textContent = links.length;
     document.getElementById('statsStrip').style.display = 'flex';
 
-    // Ãšltimos 15 Ã¡lbuns (assume ordem cronolÃ³gica decrescente na fonte)
+    // Ultimos 15 albuns (assume ordem cronologica decrescente na fonte)
     const last15 = links.slice(0, 15);
 
     container.innerHTML = last15.map(({ href, text }, i) => {
@@ -427,7 +427,7 @@
     location.replace(url.toString());
   }
 
-  // Auto-atualizaÃ§Ã£o silenciosa a cada 3 minutos (sem reload de pÃ¡gina)
+  // Auto-atualizacao silenciosa a cada 3 minutos (sem reload de pagina)
   async function pollUpdates() {
     try {
       const res = await fetch('links-data.js?v=' + Date.now(), { cache: 'no-store' });
