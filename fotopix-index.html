@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZZ2RBWF0K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YZZ2RBWF0K');
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3" />
+  <meta name="theme-color" content="#04a89d" />
   <title>Fotopix — Fotografia Esportiva</title>
   <meta name="description" content="Fotopix — Fotografia Esportiva em Fortaleza. Encontre suas fotos aqui." />
   <meta property="og:title" content="Fotopix — Fotografia Esportiva" />
   <meta property="og:image" content="https://d2hk32cswy6zx7.cloudfront.net/fotografos/v2_0209fcb8-2704-4e84-96d2-c66adaf2e85a.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <script src="links-data.js" onerror="loadRemote()"></script>
   <script>
     function loadRemote() {
@@ -21,33 +30,25 @@
   </script>
   <style>
     :root {
-      --bg:        #080c14;
-      --bg2:       #0e1420;
-      --surface:   rgba(255,255,255,0.04);
-      --border:    rgba(255,255,255,0.08);
-      --text:      #f0f4ff;
-      --muted:     #7a8aaa;
-      --brand:     #00d4aa;
-      --brand-dim: rgba(0,212,170,0.15);
+      --bg:        #070b0e;
+      --surface:   rgba(255,255,255,0.045);
+      --surface-2: rgba(255,255,255,0.07);
+      --border:    rgba(255,255,255,0.09);
+      --text:      #f2fbfa;
+      --muted:     #8aa19e;
 
-      --c-blue:    #2979ff;
-      --c-blue-g:  linear-gradient(135deg,#1a56db,#2979ff);
-      --c-orange:  #ff6b35;
-      --c-orange-g:linear-gradient(135deg,#d4380d,#ff6b35);
-      --c-green:   #00c073;
-      --c-green-g: linear-gradient(135deg,#00875a,#00c073);
-      --c-gold:    #f5a623;
-      --c-gold-g:  linear-gradient(135deg,#c47d0e,#f5a623);
-      --c-purple:  #9c6eff;
-      --c-purple-g:linear-gradient(135deg,#6c3fb5,#9c6eff);
+      --brand:      #04a89d;
+      --brand-lite: #2be3d1;
+      --brand-dark: #027368;
+      --brand-dim:  rgba(4,168,157,0.16);
+      --brand-glow: rgba(4,168,157,0.45);
     }
 
     *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
-
     html { scroll-behavior: smooth; }
 
     body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: 'Manrope', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       background: var(--bg);
       color: var(--text);
       min-height: 100vh;
@@ -57,24 +58,23 @@
       overflow-x: hidden;
     }
 
-    /* ── Background orbs ── */
     body::before, body::after {
       content: '';
       position: fixed;
       border-radius: 50%;
-      filter: blur(80px);
+      filter: blur(90px);
       pointer-events: none;
       z-index: 0;
     }
     body::before {
-      width: 420px; height: 420px;
-      background: radial-gradient(circle, rgba(0,212,170,0.12), transparent 70%);
-      top: -100px; left: -100px;
+      width: 440px; height: 440px;
+      background: radial-gradient(circle, rgba(4,168,157,0.18), transparent 70%);
+      top: -120px; left: -120px;
     }
     body::after {
       width: 380px; height: 380px;
-      background: radial-gradient(circle, rgba(41,121,255,0.1), transparent 70%);
-      bottom: 100px; right: -80px;
+      background: radial-gradient(circle, rgba(4,168,157,0.10), transparent 70%);
+      bottom: 80px; right: -100px;
     }
 
     .container {
@@ -87,18 +87,17 @@
     /* ── HERO ── */
     .hero {
       display: flex; flex-direction: column; align-items: center;
-      gap: 14px; margin-bottom: 32px; text-align: center;
+      gap: 14px; margin-bottom: 30px; text-align: center;
     }
 
-    .logo-ring {
-      position: relative; width: 88px; height: 88px;
-    }
+    .logo-ring { position: relative; width: 96px; height: 96px; }
     .logo-ring::before {
       content: '';
       position: absolute; inset: -3px;
       border-radius: 50%;
-      background: conic-gradient(var(--brand), #2979ff, var(--brand));
-      animation: spin 6s linear infinite;
+      background: conic-gradient(from 0deg, var(--brand), var(--brand-lite), var(--brand-dark), var(--brand));
+      animation: spin 10s linear infinite;
+      opacity: 0.9;
     }
     .logo-ring img {
       position: relative; z-index: 1;
@@ -109,8 +108,8 @@
     @keyframes spin { to { transform: rotate(360deg); } }
 
     .hero-name {
-      font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em;
-      background: linear-gradient(135deg, #fff 30%, var(--brand));
+      font-size: 1.55rem; font-weight: 800; letter-spacing: -0.02em;
+      background: linear-gradient(135deg, #fff 25%, var(--brand-lite));
       -webkit-background-clip: text; -webkit-text-fill-color: transparent;
       background-clip: text;
     }
@@ -121,54 +120,117 @@
     }
 
     /* ── STATS strip ── */
-    .stats {
-      display: flex; gap: 8px; width: 100%; margin-bottom: 24px;
-    }
+    .stats { display: flex; gap: 8px; width: 100%; margin-bottom: 22px; }
     .stat-pill {
       flex: 1; display: flex; flex-direction: column; align-items: center;
       padding: 10px 8px; border-radius: 12px;
       background: var(--surface); border: 1px solid var(--border);
       gap: 2px;
     }
-    .stat-num { font-size: 1.1rem; font-weight: 700; color: var(--brand); }
-    .stat-lbl { font-size: 0.68rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+    .stat-num { font-size: 1.1rem; font-weight: 700; color: var(--brand-lite); }
+    .stat-lbl { font-size: 0.66rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
 
-    /* ── WhatsApp CTA ── */
-    .btn-wa {
-      display: flex; align-items: center; justify-content: center; gap: 10px;
-      width: 100%; padding: 16px 20px; border-radius: 16px;
-      background: linear-gradient(135deg, #128c7e, #25d366, #128c7e);
-      background-size: 200% 100%; background-position: 0% 0;
-      color: #fff; text-decoration: none; font-size: 1rem; font-weight: 700;
-      letter-spacing: 0.01em;
-      box-shadow: 0 8px 32px rgba(37,211,102,0.28);
-      transition: background-position 0.4s ease, transform 0.15s ease, box-shadow 0.15s ease;
-      margin-bottom: 28px;
-      animation: pulsewa 3s ease-in-out infinite;
+    /* ── Section label ── */
+    .fixed-label {
+      width: 100%; font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.16em; color: var(--muted); margin-bottom: 10px;
     }
-    @keyframes pulsewa {
-      0%,100% { box-shadow: 0 8px 32px rgba(37,211,102,0.28); }
-      50%      { box-shadow: 0 8px 48px rgba(37,211,102,0.48); }
+
+    /* ── LINKS ── */
+    .links { display: flex; flex-direction: column; gap: 11px; width: 100%; }
+
+    @keyframes cardIn {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
     }
-    .btn-wa:hover {
-      background-position: 100% 0;
+    @keyframes pulseCard {
+      0%, 100% { box-shadow: 0 0 0 0 var(--brand-glow), 0 4px 16px rgba(0,0,0,0.28); }
+      50%      { box-shadow: 0 0 0 7px rgba(4,168,157,0), 0 4px 16px rgba(0,0,0,0.28); }
+    }
+
+    .link-card {
+      display: flex; align-items: center; gap: 12px;
+      text-decoration: none; border-radius: 16px;
+      padding: 14px 15px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+      animation: cardIn 0.4s ease both, pulseCard 3.2s ease-in-out infinite;
+      overflow: hidden; position: relative;
+    }
+    .link-card::before {
+      content: '';
+      position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+      border-radius: 3px 0 0 3px;
+      background: linear-gradient(180deg, var(--brand-lite), var(--brand-dark));
+    }
+    .link-card:hover {
       transform: translateY(-2px);
-      box-shadow: 0 12px 40px rgba(37,211,102,0.4);
+      border-color: rgba(43,227,209,0.35);
+      background: var(--surface-2);
     }
-    .btn-wa svg { flex-shrink: 0; }
 
-    /* ── Section header ── */
+    .card-icon {
+      width: 42px; height: 42px; flex-shrink: 0; border-radius: 11px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.25rem;
+      background: var(--brand-dim);
+    }
+    .card-body { flex: 1; min-width: 0; }
+    .card-title {
+      font-size: 0.9rem; font-weight: 650; color: var(--text);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .card-date { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
+    .card-right { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+    .card-arrow { color: rgba(255,255,255,0.22); flex-shrink: 0; }
+
+    .badge-novo {
+      font-size: 0.6rem; font-weight: 800; letter-spacing: 0.08em;
+      text-transform: uppercase; padding: 3px 8px; border-radius: 20px;
+      color: #01201c; background: var(--brand-lite);
+      animation: shinebadge 2.2s ease-in-out infinite;
+      white-space: nowrap;
+    }
+    @keyframes shinebadge {
+      0%,100% { box-shadow: 0 0 0 0 rgba(43,227,209,0); }
+      50%      { box-shadow: 0 0 10px 3px rgba(43,227,209,0.55); }
+    }
+
+    /* Featured (top 5) — maior ênfase visual */
+    .link-card.featured {
+      padding: 18px 17px;
+      background: linear-gradient(135deg, rgba(4,168,157,0.10), rgba(255,255,255,0.045));
+      border-color: rgba(43,227,209,0.28);
+    }
+    .link-card.featured .card-icon {
+      width: 52px; height: 52px; font-size: 1.55rem; border-radius: 14px;
+      background: var(--brand-dim);
+    }
+    .link-card.featured .card-title { font-size: 1.02rem; font-weight: 750; }
+    .link-card.featured .card-date { font-size: 0.76rem; }
+
+    /* ── Divider / separador ── */
+    .divider {
+      width: 100%; display: flex; align-items: center; gap: 12px;
+      margin: 30px 0 16px;
+    }
+    .divider::before, .divider::after {
+      content: ''; flex: 1; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--border), transparent);
+    }
+    .divider span {
+      font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.16em; color: var(--brand-lite); white-space: nowrap;
+    }
+
     .section-head {
       display: flex; align-items: center; justify-content: space-between;
       width: 100%; margin-bottom: 14px;
     }
-    .section-title {
-      font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
-      letter-spacing: 0.16em; color: var(--muted);
-    }
     .section-meta { display: flex; align-items: center; gap: 8px; }
     .updated-tag {
-      font-size: 0.65rem; color: rgba(122,138,170,0.6);
+      font-size: 0.65rem; color: rgba(138,161,158,0.75);
       background: var(--surface); border: 1px solid var(--border);
       padding: 3px 8px; border-radius: 20px;
     }
@@ -179,85 +241,13 @@
       padding: 5px 10px; border-radius: 20px; cursor: pointer;
       transition: border-color 0.2s, color 0.2s; font-family: inherit;
     }
-    .btn-refresh:hover { border-color: var(--brand); color: var(--brand); }
+    .btn-refresh:hover { border-color: var(--brand); color: var(--brand-lite); }
     .btn-refresh:disabled { opacity: 0.4; cursor: default; }
     @keyframes rotate { to { transform: rotate(360deg); } }
     .spinning .ri { display: inline-block; animation: rotate 0.6s linear infinite; }
 
-    /* ── LINKS ── */
-    .links { display: flex; flex-direction: column; gap: 10px; width: 100%; }
-
-    .link-card {
-      display: flex; align-items: center; gap: 12px;
-      text-decoration: none; border-radius: 16px;
-      padding: 13px 14px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
-      animation: cardIn 0.4s ease both;
-      overflow: hidden; position: relative;
-    }
-    .link-card::before {
-      content: '';
-      position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
-      border-radius: 3px 0 0 3px;
-      background: var(--accent, var(--brand));
-    }
-    .link-card::after {
-      content: '';
-      position: absolute; inset: 0;
-      background: linear-gradient(120deg, transparent 60%, rgba(255,255,255,0.02));
-      pointer-events: none;
-    }
-    @keyframes cardIn {
-      from { opacity: 0; transform: translateY(14px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-    .link-card:hover {
-      transform: translateY(-2px);
-      border-color: rgba(255,255,255,0.16);
-      background: rgba(255,255,255,0.07);
-    }
-
-    .card-icon {
-      width: 40px; height: 40px; flex-shrink: 0; border-radius: 10px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 1.2rem;
-      background: var(--icon-bg, rgba(0,212,170,0.12));
-    }
-    .card-body { flex: 1; min-width: 0; }
-    .card-title {
-      font-size: 0.88rem; font-weight: 600; color: var(--text);
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-    }
-    .card-date { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
-    .card-right { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
-
-    .badge-novo {
-      font-size: 0.6rem; font-weight: 800; letter-spacing: 0.08em;
-      text-transform: uppercase; padding: 2px 7px; border-radius: 20px;
-      color: #000; background: var(--brand);
-      animation: shinebadge 2.5s ease-in-out infinite;
-    }
-    @keyframes shinebadge {
-      0%,100% { box-shadow: 0 0 0 0 rgba(0,212,170,0); }
-      50%      { box-shadow: 0 0 8px 3px rgba(0,212,170,0.4); }
-    }
-
-    .card-arrow { color: rgba(255,255,255,0.2); }
-
-    /* Category colors */
-    .cat-tarde   { --accent: var(--c-orange); --icon-bg: rgba(255,107,53,0.12); }
-    .cat-morning { --accent: var(--c-blue);   --icon-bg: rgba(41,121,255,0.12); }
-    .cat-nature  { --accent: var(--c-green);  --icon-bg: rgba(0,192,115,0.12); }
-    .cat-event   { --accent: var(--c-gold);   --icon-bg: rgba(245,166,35,0.12); }
-    .cat-special { --accent: var(--c-purple); --icon-bg: rgba(156,110,255,0.12); }
-
     /* ── Footer ── */
-    .footer {
-      margin-top: 40px; display: flex; flex-direction: column;
-      align-items: center; gap: 16px;
-    }
+    .footer { margin-top: 38px; display: flex; flex-direction: column; align-items: center; gap: 16px; }
     .social-links { display: flex; gap: 16px; }
     .social-btn {
       display: flex; align-items: center; justify-content: center;
@@ -266,13 +256,10 @@
       color: var(--muted); text-decoration: none;
       transition: border-color 0.2s, color 0.2s;
     }
-    .social-btn:hover { border-color: var(--brand); color: var(--brand); }
-    .footer-brand {
-      font-size: 0.7rem; color: rgba(122,138,170,0.4);
-      display: flex; align-items: center; gap: 5px;
-    }
-    .footer-brand a { color: rgba(0,212,170,0.5); text-decoration: none; }
-    .footer-brand a:hover { color: var(--brand); }
+    .social-btn:hover { border-color: var(--brand); color: var(--brand-lite); }
+    .footer-brand { font-size: 0.7rem; color: rgba(138,161,158,0.55); display: flex; align-items: center; gap: 5px; }
+    .footer-brand a { color: rgba(43,227,209,0.7); text-decoration: none; }
+    .footer-brand a:hover { color: var(--brand-lite); }
   </style>
 </head>
 <body>
@@ -284,7 +271,7 @@
       <img src="https://d2hk32cswy6zx7.cloudfront.net/fotografos/v2_62873ec3-a5f3-4141-afde-af6d72fc205d.jpg" alt="FotoPix" />
     </div>
     <h1 class="hero-name">FotoPix</h1>
-    <p class="hero-bio">Fotografia Esportiva em Fortaleza 📍<br>Aqui tratamos com qualidade, sonhos!<br>Suas fotos você encontra aqui 👇</p>
+    <p class="hero-bio">Fotografia Esportiva em Fortaleza �M<br>Aqui tratamos com qualidade, sonhos!<br>Suas fotos você encontra aqui 👇</p>
   </div>
 
   <!-- Stats -->
@@ -303,50 +290,48 @@
     </div>
   </div>
 
-  <!-- WhatsApp -->
-  <a class="btn-wa" href="https://chat.whatsapp.com/DKN5T3EguFgIU9tonK9Pxn" target="_blank" rel="noopener">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-    </svg>
-    Receba os links no WhatsApp
-  </a>
-
-  <!-- Static links -->
-  <div class="links" style="margin-bottom:20px;">
-    <a class="link-card cat-morning" href="https://fotopix.com.br/" target="_blank" rel="noopener">
+  <!-- Links fixos -->
+  <div class="fixed-label">Links fixos</div>
+  <div class="links" style="margin-bottom:8px;">
+    <a class="link-card" href="https://www.instagram.com/fotopixce/" target="_blank" rel="noopener">
+      <div class="card-icon">📸</div>
+      <div class="card-body"><div class="card-title">Link das fotos via instagram</div></div>
+      <div class="card-right"></div>
+    </a>
+    <a class="link-card" href="https://chat.whatsapp.com/DKN5T3EguFgIU9tonK9Pxn" target="_blank" rel="noopener">
+      <div class="card-icon">💬</div>
+      <div class="card-body"><div class="card-title">Link das fotos via whatsapp</div></div>
+      <div class="card-right"></div>
+    </a>
+    <a class="link-card" href="https://fotopix.com.br/" target="_blank" rel="noopener">
       <div class="card-icon">📷</div>
-      <div class="card-body">
-        <div class="card-title">Nossa plataforma</div>
-      </div>
-      <div class="card-right"><svg class="card-arrow" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg></div>
+      <div class="card-body"><div class="card-title">Fotos via plataforma banlek</div></div>
+      <div class="card-right"></div>
     </a>
-    <a class="link-card cat-morning" href="https://www.fotto.com.br/nicola.braga.marques" target="_blank" rel="noopener">
+    <a class="link-card" href="https://fotopix.fotto.com.br" target="_blank" rel="noopener">
       <div class="card-icon">🖼️</div>
-      <div class="card-body">
-        <div class="card-title">Nós na Fotto</div>
-      </div>
-      <div class="card-right"><svg class="card-arrow" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg></div>
+      <div class="card-body"><div class="card-title">Fotos via plataforma Fotto</div></div>
+      <div class="card-right"></div>
     </a>
   </div>
 
-  <!-- Section header -->
+  <!-- Separador -->
+  <div class="divider"><span>Álbuns recentes</span></div>
+
   <div class="section-head">
-    <span class="section-title">Álbuns recentes</span>
-    <div class="section-meta">
-      <span class="updated-tag" id="updatedAt"></span>
-      <button class="btn-refresh" id="btnRefresh" onclick="hardRefresh()">
-        <span class="ri">↺</span> Atualizar
-      </button>
-    </div>
+    <span class="updated-tag" id="updatedAt"></span>
+    <button class="btn-refresh" id="btnRefresh" onclick="hardRefresh()">
+      <span class="ri">↺</span> Atualizar
+    </button>
   </div>
 
-  <!-- Cards -->
+  <!-- Cards dinâmicos -->
   <div class="links" id="linksContainer"></div>
 
   <!-- Footer -->
   <div class="footer">
     <div class="social-links">
-      <a class="social-btn" href="https://www.instagram.com/fotopix/" target="_blank" rel="noopener" aria-label="Instagram">
+      <a class="social-btn" href="https://www.instagram.com/fotopixce/" target="_blank" rel="noopener" aria-label="Instagram">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
       </a>
       <a class="social-btn" href="https://fotopix.com.br" target="_blank" rel="noopener" aria-label="FotoPix">
@@ -361,22 +346,16 @@
 <script>
   const CHEVRON = `<svg class="card-arrow" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>`;
 
-  function getCategory(t) {
-    const s = t.toLowerCase();
-    if (s.includes('tarde') || s.includes('noite'))              return 'tarde';
-    if (s.includes('sabiaguaba') || s.includes('ibiratemi'))      return 'nature';
-    if (/triathlon|desafio|vertical|sprint/i.test(s))             return 'special';
-    if (/corrida|maratona|run|track|circuito|sesc|terra|peter|vozao|sun day|pague menos|polic|choqueano|sesi/i.test(s)) return 'event';
-    return 'morning';
-  }
+  // Injeta o chevron nos links fixos (evita duplicar markup acima)
+  document.querySelectorAll('.links .link-card .card-right').forEach(el => { if (!el.innerHTML) el.innerHTML = CHEVRON; });
 
-  function getIcon(cat, title) {
+  function getIcon(title) {
     const t = title.toLowerCase();
-    if (cat === 'tarde')   return '🌆';
-    if (cat === 'nature')  return t.includes('ibiratemi') ? '🌳' : '🚴';
-    if (cat === 'special') return '🏊';
-    if (cat === 'event')   return '🏃';
-    return '🌅';
+    if (t.includes('sabiaguaba')) return '🚴';
+    if (t.includes('beira mar')) return '🏃';
+    if (t.includes('ciclismo')) return '🚴';
+    if (/corrida|track|maratona|run|circuito|hexa/.test(t)) return '🏃';
+    return '📸';
   }
 
   function extractDate(text) {
@@ -401,32 +380,25 @@
     const links = data.links;
 
     if (data.updated_at) {
-      document.getElementById('updatedAt').textContent = data.updated_at;
+      document.getElementById('updatedAt').textContent = 'Atualizado ' + data.updated_at;
       const timePart = data.updated_at.split(' ')[1] || data.updated_at;
       document.getElementById('statUpdate').textContent = timePart;
     }
 
-    const sevenDaysAgo = new Date();
-    sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
-    const filtered = links.filter(({ text }) => {
-      const m = text.match(/(\d{2})[\/](\d{2})[\/](\d{4})/);
-      if (!m) return false;
-      const d = new Date(+m[3], +m[2] - 1, +m[1]);
-      return d >= sevenDaysAgo;
-    });
-
-    document.getElementById('statAlbuns').textContent = filtered.length;
+    document.getElementById('statAlbuns').textContent = links.length;
     document.getElementById('statsStrip').style.display = 'flex';
 
-    container.innerHTML = filtered.map(({ href, text }, i) => {
-      const cat   = getCategory(text);
-      const icon  = getIcon(cat, text);
-      const date  = extractDate(text);
-      const title = stripDate(text);
-      const isNew = i < 5;
-      const delay = Math.min(i * 0.05, 1);
+    // Últimos 15 álbuns (assume ordem cronológica decrescente na fonte)
+    const last15 = links.slice(0, 15);
+
+    container.innerHTML = last15.map(({ href, text }, i) => {
+      const icon    = getIcon(text);
+      const date    = extractDate(text);
+      const title   = stripDate(text);
+      const isNew   = i < 5;
+      const delay   = Math.min(i * 0.05, 1);
       return `
-        <a class="link-card cat-${cat}" href="${href}" target="_blank" rel="noopener" style="animation-delay:${delay}s">
+        <a class="link-card ${isNew ? 'featured' : ''}" href="${href}" target="_blank" rel="noopener" style="animation-delay:${delay}s, ${(i % 6) * 0.4}s">
           <div class="card-icon">${icon}</div>
           <div class="card-body">
             <div class="card-title">${title}</div>
@@ -454,6 +426,20 @@
     url.searchParams.set('v', Date.now());
     location.replace(url.toString());
   }
+
+  // Auto-atualização silenciosa a cada 3 minutos (sem reload de página)
+  async function pollUpdates() {
+    try {
+      const res = await fetch('links-data.js?v=' + Date.now(), { cache: 'no-store' });
+      const text = await res.text();
+      const m = text.match(/window\.LINKS_DATA\s*=\s*(\{[\s\S]*\})\s*;/);
+      if (m) {
+        window.LINKS_DATA = JSON.parse(m[1]);
+        render();
+      }
+    } catch (e) { /* silencioso */ }
+  }
+  setInterval(pollUpdates, 3 * 60 * 1000);
 
   if (window.LINKS_DATA) render();
 </script>
