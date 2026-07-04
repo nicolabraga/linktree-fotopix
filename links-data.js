@@ -1,9 +1,17 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 04/07/2026 09:05
+// Atualizado em: 04/07/2026 18:33
 window.LINKS_DATA = {
-  "updated_at": "04/07/2026 09:05",
+  "updated_at": "04/07/2026 18:33",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/232570",
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 04/07/2026 - Álbum de Fotos de Corrida"
+    },
+    {
+        "href": "https://fotopix.com.br/album/23629f",
+        "text": "II Etapa Sprint Triathlon - Cumbuco - 04/07/2026 - Álbum de Fotos de Corrida"
+    },
     {
         "href": "https://fotopix.com.br/album/23256e",
         "text": "Beira Mar - Fortaleza - 04/07/2026 - Álbum de Fotos de Corrida"
