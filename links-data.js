@@ -1,9 +1,17 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 04/07/2026 19:08
+// Atualizado em: 05/07/2026 09:30
 window.LINKS_DATA = {
-  "updated_at": "04/07/2026 19:08",
+  "updated_at": "05/07/2026 09:30",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/232575",
+        "text": "Beira Mar - Fortaleza - 05/07/2026 - Álbum de Fotos de Corrida"
+    },
+    {
+        "href": "https://fotopix.com.br/album/2325ab",
+        "text": "3ª Meia Maratona BNB Clube - Fortaleza 05/07/2026 - Álbum de Fotos de Corrida"
+    },
     {
         "href": "https://fotopix.com.br/album/232570",
         "text": "Beira Mar - Tarde/Noite - Fortaleza - 04/07/2026 - Álbum de Fotos de Corrida"
