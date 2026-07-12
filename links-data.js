@@ -1,9 +1,17 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 12/07/2026 10:07
+// Atualizado em: 12/07/2026 18:34
 window.LINKS_DATA = {
-  "updated_at": "12/07/2026 10:07",
+  "updated_at": "12/07/2026 18:34",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/238835",
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 12/07/2026 - Álbum de Fotos de Corrida"
+    },
+    {
+        "href": "https://fotopix.com.br/album/23d0f0",
+        "text": "Simulado Santitreinos - Fortaleza - 12/07/2026 - Álbum de Fotos de Ciclismo"
+    },
     {
         "href": "https://fotopix.com.br/album/238834",
         "text": "Beira Mar - Fortaleza - 12/07/2026 - Álbum de Fotos de Corrida"
