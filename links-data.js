@@ -1,9 +1,17 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 15/07/2026 21:13
+// Atualizado em: 16/07/2026 07:50
 window.LINKS_DATA = {
-  "updated_at": "15/07/2026 21:13",
+  "updated_at": "16/07/2026 07:50",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/23e7b9",
+        "text": "Beira Mar - Fortaleza - 16/07/2026 - Álbum de Fotos de Corrida"
+    },
+    {
+        "href": "https://fotopix.com.br/album/23e7a9",
+        "text": "Sabiaguaba - Fortaleza - 16/07/2026 - Álbum de Fotos de Ciclismo"
+    },
     {
         "href": "https://fotopix.com.br/album/23e795",
         "text": "Beira Mar - Tarde/Noite - Fortaleza - 15/07/2026 - Álbum de Fotos de Corrida"
