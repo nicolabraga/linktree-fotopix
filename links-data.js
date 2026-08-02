@@ -1,9 +1,17 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 01/08/2026 21:15
+// Atualizado em: 02/08/2026 09:20
 window.LINKS_DATA = {
-  "updated_at": "01/08/2026 21:15",
+  "updated_at": "02/08/2026 09:20",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/24ba4b",
+        "text": "Beira Mar - Fortaleza - 02/08/2026 - Álbum de Fotos de Corrida"
+    },
+    {
+        "href": "https://fotopix.com.br/album/24cc54",
+        "text": "ASICS RUN CHALLENGE 2026 - Fortaleza 02/08/2026 - Álbum de Fotos de Corrida"
+    },
     {
         "href": "https://fotopix.com.br/album/24ba30",
         "text": "Beira Mar - Tarde/Noite - Fortaleza - 01/08/2026 - Álbum de Fotos de Corrida"
