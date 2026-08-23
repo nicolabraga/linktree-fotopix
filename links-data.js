@@ -1,9 +1,13 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 23/08/2026 08:57
+// Atualizado em: 23/08/2026 09:01
 window.LINKS_DATA = {
-  "updated_at": "23/08/2026 08:57",
+  "updated_at": "23/08/2026 09:01",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/261678",
+        "text": "CORRIDA DO LAION - 2026 - Fortaleza 16/08/2026 - Álbum de Fotos de Corrida"
+    },
     {
         "href": "https://fotopix.com.br/album/25e627",
         "text": "Beira Mar - Fortaleza - 23/08/2026 - Álbum de Fotos de Corrida"
