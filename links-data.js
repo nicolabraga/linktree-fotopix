@@ -1,9 +1,13 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 23/08/2026 19:10
+// Atualizado em: 24/08/2026 08:10
 window.LINKS_DATA = {
-  "updated_at": "23/08/2026 19:10",
+  "updated_at": "24/08/2026 08:10",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/263ddb",
+        "text": "Beira Mar - Fortaleza - 24/08/2026 - Álbum de Fotos de Corrida"
+    },
     {
         "href": "https://fotopix.com.br/album/25e628",
         "text": "Beira Mar - Tarde/Noite - Fortaleza - 23/08/2026 - Álbum de Fotos de Corrida"
