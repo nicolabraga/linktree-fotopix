@@ -1,9 +1,17 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 04/09/2026 18:36
+// Atualizado em: 05/09/2026 08:12
 window.LINKS_DATA = {
-  "updated_at": "04/09/2026 18:36",
+  "updated_at": "05/09/2026 08:12",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/26b410",
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 05/09/2026 - Álbum de Fotos de Corrida"
+    },
+    {
+        "href": "https://fotopix.com.br/album/26dc1d",
+        "text": "Treino Washington Soares Corrida Manhã - Fortaleza - 04/09/2026 - Álbum de Fotos de Corrida"
+    },
     {
         "href": "https://fotopix.com.br/album/26b40d",
         "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 04/09/2026 - Álbum de Fotos de Corrida"
