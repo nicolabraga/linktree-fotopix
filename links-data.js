@@ -1,9 +1,13 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 06/09/2026 09:02
+// Atualizado em: 06/09/2026 09:43
 window.LINKS_DATA = {
-  "updated_at": "06/09/2026 09:02",
+  "updated_at": "06/09/2026 09:43",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/26b426",
+        "text": "42K Terra da Luz Corrida - 2026 - Fortaleza 06/09/2026 - Álbum de Fotos de Corrida"
+    },
     {
         "href": "https://fotopix.com.br/album/26b418",
         "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 06/09/2026 - Álbum de Fotos de Corrida"
