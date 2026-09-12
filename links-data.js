@@ -1,9 +1,13 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 12/09/2026 09:05
+// Atualizado em: 12/09/2026 09:20
 window.LINKS_DATA = {
-  "updated_at": "12/09/2026 09:05",
+  "updated_at": "12/09/2026 09:20",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/274d79",
+        "text": "Treino Ibiratemi Corrida Manhã - Fortaleza - 12/09/2026 - Álbum de Fotos de Corrida"
+    },
     {
         "href": "https://fotopix.com.br/album/27067b",
         "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 12/09/2026 - Álbum de Fotos de Corrida"
