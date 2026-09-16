@@ -6,7 +6,7 @@ window.LINKS_DATA = {
   "links": [
     {
         "href": "https://fotopix.com.br/album/278c95",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 16/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/278c93",
