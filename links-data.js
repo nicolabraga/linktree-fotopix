@@ -1,9 +1,13 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 19/09/2026 20:03
+// Atualizado em: 20/09/2026 08:08
 window.LINKS_DATA = {
-  "updated_at": "19/09/2026 20:03",
+  "updated_at": "20/09/2026 08:08",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/278cab",
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 20/09/2026 - Álbum de Fotos de Corrida"
+    },
     {
         "href": "https://fotopix.com.br/album/278ca4",
         "text": "Treino Beira Mar Corrida Tarde"
