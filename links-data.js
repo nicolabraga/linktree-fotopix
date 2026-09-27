@@ -1,9 +1,17 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 26/09/2026 19:07
+// Atualizado em: 27/09/2026 09:08
 window.LINKS_DATA = {
-  "updated_at": "26/09/2026 19:07",
+  "updated_at": "27/09/2026 09:08",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/27f912",
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 27/09/2026 - Álbum de Fotos de Corrida"
+    },
+    {
+        "href": "https://fotopix.com.br/album/2838de",
+        "text": "Circuito Caixa - Corrida - 2026 - Fortaleza 27/09/2026 - Álbum de Fotos de Corrida"
+    },
     {
         "href": "https://fotopix.com.br/album/27f90f",
         "text": "Treino Beira Mar Corrida Tarde"
