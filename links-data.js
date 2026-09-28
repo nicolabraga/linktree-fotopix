@@ -1,8 +1,8 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 28/09/2026 08:27
+// Atualizado em: 28/09/2026 09:06
 window.LINKS_DATA = {
-  "updated_at": "28/09/2026 08:27",
+  "updated_at": "28/09/2026 09:06",
   "links": [
     {
         "href": "https://fotopix.com.br/album/28530a",
