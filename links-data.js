@@ -1,876 +1,876 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 29/09/2026 07:31
+// Atualizado em: 29/09/2026 07:36
 window.LINKS_DATA = {
-  "updated_at": "29/09/2026 07:31",
+  "updated_at": "29/09/2026 07:36",
   "links": [
     {
         "href": "https://fotopix.com.br/album/285313",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 29/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 29/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/285311",
-        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 29/09/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 29/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/285310",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 28/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 28/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/28530a",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 28/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 28/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27f914",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 27/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 27/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27f912",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 27/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 27/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2838de",
-        "text": "Circuito Caixa - Corrida - 2026 - Fortaleza 27/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Circuito Caixa - Corrida - 2026 - Fortaleza 27/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27f90f",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 26/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 26/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27f90d",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 26/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 26/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/281f26",
-        "text": "Treino Washington Soares Corrida Manhã - Fortaleza - 26/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Washington Soares Corrida Manhã - Fortaleza - 26/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27f90a",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 25/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 25/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27f908",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 25/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 25/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27f902",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 24/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 24/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27f900",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 24/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 24/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27f8fb",
-        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 24/09/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 24/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27f8f7",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 23/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 23/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27f8f1",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 23/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 23/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27eeb1",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 22/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 22/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27eeaf",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 22/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 22/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27dbf0",
-        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 22/09/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 22/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27dbdf",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 21/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 21/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27dbb8",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 21/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 21/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/278cad",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 20/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 20/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/278cc2",
-        "text": "SANTANDER TRACK&FIELD RUN SERIES - SHOPPING DEL PASEO II - Corrida - 2026 - Fortaleza 20/09/2026 - Álbum de Fotos de Corrida"
+        "text": "SANTANDER TRACK&FIELD RUN SERIES - SHOPPING DEL PASEO II - Corrida - 2026 - Fortaleza 20/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/278cab",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 20/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 20/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/278ca4",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 19/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 19/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27b654",
-        "text": "Triathlon Olímpico - 2026 - Cumbuco - 19/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Triathlon Olímpico - 2026 - Cumbuco - 19/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/278ca3",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 19/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 19/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/278ca0",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 18/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 18/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/278c9f",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 18/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 18/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/278c9c",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 17/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 17/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/278c9b",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 17/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 17/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/278c96",
-        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 17/09/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 17/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/278c95",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 16/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 16/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/278c93",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 16/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 16/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/276fe8",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 15/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 15/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/276fc1",
-        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 15/09/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 15/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/276fbb",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 14/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 14/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/276f68",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 14/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 14/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27068d",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 13/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 13/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27067f",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 12/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 12/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/274d79",
-        "text": "Treino Ibiratemi Corrida Manhã - Fortaleza - 12/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Ibiratemi Corrida Manhã - Fortaleza - 12/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27067b",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 12/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 12/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/270623",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 11/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 11/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/270622",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 11/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 11/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/270617",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 10/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 10/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/270612",
-        "text": "Beira Mar Corrida Manhã - Fortaleza - 10/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar Corrida Manhã - Fortaleza - 10/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/27060e",
-        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 10/09/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 10/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/270606",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 09/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 09/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/270604",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 09/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 09/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2705f3",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 08/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 08/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2705ed",
-        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 08/09/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 08/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2705b6",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 07/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 07/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2705aa",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 07/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 07/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26b41a",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 06/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 06/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26b426",
-        "text": "42K Terra da Luz Corrida - 2026 - Fortaleza 06/09/2026 - Álbum de Fotos de Corrida"
+        "text": "42K Terra da Luz Corrida - 2026 - Fortaleza 06/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26b418",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 06/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 06/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26b410",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 05/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 05/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26dc1d",
-        "text": "Treino Washington Soares Corrida Manhã - Fortaleza - 04/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Washington Soares Corrida Manhã - Fortaleza - 04/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26b40d",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 04/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 04/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26b407",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 03/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 03/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26b405",
-        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 03/09/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 03/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26b3fe",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 02/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 02/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26b3fc",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 02/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 02/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26ad41",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 01/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 01/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26ad40",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 01/09/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 01/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26a5fc",
-        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 01/09/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 01/09/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26a5ee",
-        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 31/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 31/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26a5dd",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 31/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 31/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/265268",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 30/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 30/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26526a",
-        "text": "Challenge Brasil Triathlon - 2026 - Fortaleza 30/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Challenge Brasil Triathlon - 2026 - Fortaleza 30/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/265263",
-        "text": "Treino Beira Mar Corrida - Tarde|Noite - Fortaleza - 29/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida - Tarde|Noite - Fortaleza - 29/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/265262",
-        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 29/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 29/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26525e",
-        "text": "Treino Beira Mar Corrida - Tarde|Noite - Fortaleza - 28/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Treino Beira Mar Corrida - Tarde|Noite - Fortaleza - 28/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26525d",
-        "text": "Beira Mar - Fortaleza - 28/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 28/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/265256",
-        "text": "Beira Mar - Fortaleza - 27/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 27/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/265252",
-        "text": "Sabiaguaba - Fortaleza - 27/08/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 27/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/265250",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 26/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 26/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26523d",
-        "text": "Beira Mar - Fortaleza - 26/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 26/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/264609",
-        "text": "Beira Mar - Fortaleza - 25/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 25/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/26460b",
-        "text": "Sabiaguaba - Fortaleza - 25/08/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 25/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/264606",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 24/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 24/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/263ddb",
-        "text": "Beira Mar - Fortaleza - 24/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 24/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e628",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 23/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 23/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/261678",
-        "text": "CORRIDA DO LAION - 2026 - Fortaleza 16/08/2026 - Álbum de Fotos de Corrida"
+        "text": "CORRIDA DO LAION - 2026 - Fortaleza 16/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e627",
-        "text": "Beira Mar - Fortaleza - 23/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 23/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e61f",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 22/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 22/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e61d",
-        "text": "Beira Mar - Fortaleza - 22/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 22/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e614",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 21/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 21/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e613",
-        "text": "Beira Mar - Fortaleza - 21/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 21/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e609",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 20/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 20/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e608",
-        "text": "Beira Mar - Fortaleza - 20/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 20/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e604",
-        "text": "Sabiaguaba - Fortaleza - 20/08/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 20/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e603",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 19/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 19/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e5fd",
-        "text": "Beira Mar - Fortaleza - 19/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 19/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e025",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 18/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 18/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e024",
-        "text": "Beira Mar - Fortaleza - 18/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 18/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25e023",
-        "text": "Sabiaguaba - Fortaleza - 18/08/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 18/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25ca42",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 17/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 17/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25ca3b",
-        "text": "Beira Mar - Fortaleza - 17/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 17/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/256261",
-        "text": "Beira Mar - Fortaleza - 16/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 16/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25b929",
-        "text": "Granado Pink 2026 - Fortaleza 16/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Granado Pink 2026 - Fortaleza 16/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/256258",
-        "text": "Beira Mar - Fortaleza - 15/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 15/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/256253",
-        "text": "Beira Mar - Fortaleza - 14/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 14/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/256250",
-        "text": "Beira Mar - Fortaleza - 13/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 13/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/256248",
-        "text": "Sabiaguaba - Fortaleza - 13/08/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 13/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/256245",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 12/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 12/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/256244",
-        "text": "Beira Mar - Fortaleza - 12/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 12/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25623c",
-        "text": "Beira Mar - Fortaleza - 11/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 11/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/256239",
-        "text": "Sabiaguaba - Fortaleza - 11/08/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 11/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/256234",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 10/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 10/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25622e",
-        "text": "Beira Mar - Fortaleza - 10/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 10/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2507ef",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 09/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 09/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2507eb",
-        "text": "Beira Mar - Fortaleza - 09/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 09/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2507d3",
-        "text": "Beira Mar - Fortaleza - 08/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 08/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2507ca",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 07/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 07/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2507c6",
-        "text": "Beira Mar - Fortaleza - 07/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 07/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2507b8",
-        "text": "Beira Mar - Fortaleza - 06/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 06/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2507ae",
-        "text": "Sabiaguaba - Fortaleza - 06/08/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 06/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2507ac",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 05/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 05/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2507aa",
-        "text": "Beira Mar - Fortaleza - 05/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 05/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/25076d",
-        "text": "Beira Mar - Fortaleza - 04/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 04/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/250705",
-        "text": "Sabiaguaba - Fortaleza - 04/08/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 04/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2506e4",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 03/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 03/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2506e0",
-        "text": "Beira Mar - Fortaleza - 03/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 03/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24ba4c",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 02/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 02/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24f683",
-        "text": "Simulado Santitreinos - Fortaleza - 02/08/2026 - Álbum de Fotos de Triathlon"
+        "text": "Simulado Santitreinos - Fortaleza - 02/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24ba4b",
-        "text": "Beira Mar - Fortaleza - 02/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 02/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24cc54",
-        "text": "ASICS RUN CHALLENGE 2026 - Fortaleza 02/08/2026 - Álbum de Fotos de Corrida"
+        "text": "ASICS RUN CHALLENGE 2026 - Fortaleza 02/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24ba30",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 01/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 01/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24ba2f",
-        "text": "Beira Mar - Fortaleza - 01/08/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 01/08/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24ba1d",
-        "text": "Beira Mar - Fortaleza - 31/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 31/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24ba18",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 30/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 30/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24b9ea",
-        "text": "Beira Mar - Fortaleza - 30/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 30/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24ba1a",
-        "text": "Sabiaguaba - Fortaleza - 30/07/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 30/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24b9e7",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 29/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 29/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24b9e3",
-        "text": "Beira Mar - Fortaleza - 29/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 29/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24b61c",
-        "text": "Beira Mar - Fortaleza - 28/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 28/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24b620",
-        "text": "Sabiaguaba - Fortaleza - 28/07/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 28/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24a2ba",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 27/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 27/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24a2af",
-        "text": "Beira Mar - Fortaleza - 27/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 27/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/244592",
-        "text": "Beira Mar - Fortaleza - 26/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 26/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/244584",
-        "text": "Beira Mar - Fortaleza - 25/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 25/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/244579",
-        "text": "Beira Mar - Fortaleza - 24/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 24/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/244071",
-        "text": "Beira Mar - Fortaleza - 23/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 23/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24406f",
-        "text": "Sabiaguaba - Fortaleza - 23/07/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 23/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24406a",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 22/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 22/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/244064",
-        "text": "Beira Mar - Fortaleza - 22/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 22/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24405d",
-        "text": "Beira Mar - Fortaleza - 21/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 21/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/24404c",
-        "text": "Sabiaguaba - Fortaleza - 21/07/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 21/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/244039",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 20/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 20/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/244033",
-        "text": "Beira Mar - Fortaleza - 20/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 20/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e934",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 19/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 19/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e933",
-        "text": "Beira Mar - Fortaleza - 19/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 19/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e95c",
-        "text": "4a CORRIDA SUPERMERCADO GUARA - Fortaleza 19/07/2026 - Álbum de Fotos de Corrida"
+        "text": "4a CORRIDA SUPERMERCADO GUARA - Fortaleza 19/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e92e",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 18/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 18/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2424e5",
-        "text": "CE040 - Fortaleza - 17/07/2026 - Álbum de Fotos de Ciclismo"
+        "text": "CE040 - Fortaleza - 17/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e92b",
-        "text": "Beira Mar - Fortaleza - 18/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 18/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e920",
-        "text": "Beira Mar - Fortaleza - 17/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 17/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e7bb",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 16/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 16/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e7b9",
-        "text": "Beira Mar - Fortaleza - 16/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 16/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e7a9",
-        "text": "Sabiaguaba - Fortaleza - 16/07/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 16/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e795",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 15/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 15/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e794",
-        "text": "Beira Mar - Fortaleza - 15/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 15/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e791",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 14/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 14/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e782",
-        "text": "Beira Mar - Fortaleza - 14/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 14/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e772",
-        "text": "Sabiaguaba - Fortaleza - 14/07/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 14/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e722",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 13/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 13/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23e682",
-        "text": "Beira Mar - Fortaleza - 13/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 13/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/238835",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 12/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 12/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23d0f0",
-        "text": "Simulado Santitreinos - Fortaleza - 12/07/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Simulado Santitreinos - Fortaleza - 12/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/238834",
-        "text": "Beira Mar - Fortaleza - 12/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 12/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23882e",
-        "text": "Beira Mar - Fortaleza - 11/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 11/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/238825",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 10/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 10/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/238823",
-        "text": "Beira Mar - Fortaleza - 10/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 10/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23881d",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 09/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 09/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/238819",
-        "text": "Beira Mar - Fortaleza - 09/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 09/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23881b",
-        "text": "Sabiaguaba - Fortaleza - 09/07/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 09/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23880d",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 08/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 08/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/238808",
-        "text": "Beira Mar - Fortaleza - 08/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 08/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/238804",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 07/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 07/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2387f5",
-        "text": "Beira Mar - Fortaleza - 07/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 07/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/238801",
-        "text": "Sabiaguaba - Fortaleza - 07/07/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 07/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2387f4",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 06/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 06/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2387f1",
-        "text": "Beira Mar - Fortaleza - 06/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 06/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/232575",
-        "text": "Beira Mar - Fortaleza - 05/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 05/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/2325ab",
-        "text": "3ª Meia Maratona BNB Clube - Fortaleza 05/07/2026 - Álbum de Fotos de Corrida"
+        "text": "3ª Meia Maratona BNB Clube - Fortaleza 05/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/232570",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 04/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 04/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23629f",
-        "text": "II Etapa Sprint Triathlon - Cumbuco - 04/07/2026 - Álbum de Fotos de Corrida"
+        "text": "II Etapa Sprint Triathlon - Cumbuco - 04/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23256e",
-        "text": "Beira Mar - Fortaleza - 04/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 04/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23255a",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 03/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 03/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/232557",
-        "text": "Beira Mar - Fortaleza - 03/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 03/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/232544",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 02/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 02/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23253d",
-        "text": "Beira Mar - Fortaleza - 02/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 02/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/232548",
-        "text": "Sabiaguaba - Fortaleza - 02/07/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 02/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23253a",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 01/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 01/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/232538",
-        "text": "Beira Mar - Fortaleza - 01/07/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 01/07/2026"
     },
     {
         "href": "https://fotopix.com.br/album/232532",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 30/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 30/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23252c",
-        "text": "Beira Mar - Fortaleza - 30/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 30/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/23252a",
-        "text": "Sabiaguaba - Fortaleza - 30/06/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 30/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/232523",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 29/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 29/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/232510",
-        "text": "Beira Mar - Fortaleza - 29/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 29/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22ce52",
-        "text": "Beira Mar - Fortaleza - 28/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 28/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22ce94",
-        "text": "Track&Field - Fortaleza 28/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Track&Field - Fortaleza 28/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22ce2d",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 27/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 27/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22ce2a",
-        "text": "Beira Mar - Fortaleza - 27/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 27/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22ce1b",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 26/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 26/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22ce12",
-        "text": "Beira Mar - Fortaleza - 26/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 26/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22ce0d",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 25/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 25/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22ce05",
-        "text": "Beira Mar - Fortaleza - 25/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 25/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22cddd",
-        "text": "Sabiaguaba - Fortaleza - 25/06/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 25/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22cdd9",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 24/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 24/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22cd96",
-        "text": "Beira Mar - Fortaleza - 24/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 24/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22cd91",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 23/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 23/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22cd8c",
-        "text": "Beira Mar - Fortaleza - 23/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Fortaleza - 23/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22cd85",
-        "text": "Sabiaguaba - Fortaleza - 23/06/2026 - Álbum de Fotos de Ciclismo"
+        "text": "Sabiaguaba - Fortaleza - 23/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22cd80",
-        "text": "Beira Mar - Tarde/Noite - Fortaleza - 22/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Beira Mar - Tarde/Noite - Fortaleza - 22/06/2026"
     },
     {
         "href": "https://fotopix.com.br/album/22cd7c",
