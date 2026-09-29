@@ -105,27 +105,40 @@ if (MODE === 'linktree') {
   const added = albums.filter(a => !(a.id in oldEmoji));
   console.log('Álbuns novos no site:\n' + added.map(a => `- ${a.title} (${a.date})`).join('\n'));
 } else if (MODE === 'fotopix') {
-  // Repo nicolabraga/linktree-fotopix: varre 6 meses; título = <title> antes do "|" (fallback <h1>).
+  // Repo nicolabraga/linktree-fotopix: varre 6 meses.
+  // Título = <title> sem o sufixo " | Fortaleza, CE" (só corta no "|" com espaços,
+  // porque o próprio nome pode ter "|", ex.: "Tarde|Noite"). Fallback <h1>.
+  const fotopixTitle = async href => {
+    const r = await get(href);
+    const buf = await r.arrayBuffer();
+    const cs = (r.headers.get('content-type') || '').match(/charset=([^\s;]+)/i)?.[1] || 'utf-8';
+    let html;
+    try { html = new TextDecoder(cs).decode(buf); } catch { html = new TextDecoder('utf-8').decode(buf); }
+    const title = decodeEntities(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || '').replace(/\s+/g, ' ')
+      .split(/\s+\|\s+/)[0].replace(/\s-(\d{2}\/)/, ' - $1').trim();
+    const h1 = decodeEntities(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1] || '').replace(/<[^>]+>/g, '').trim();
+    return title || h1 || href;
+  };
   const existing = parseLinks(fs.readFileSync('links-data.js', 'utf8'));
   const known = new Set(existing.map(l => l.href));
   const hrefs = (await listHrefs(6)).filter(h => !known.has(h));
   const fresh = [];
   for (const href of hrefs) {
-    try {
-      const r = await get(href);
-      const buf = await r.arrayBuffer();
-      const cs = (r.headers.get('content-type') || '').match(/charset=([^\s;]+)/i)?.[1] || 'utf-8';
-      let html;
-      try { html = new TextDecoder(cs).decode(buf); } catch { html = new TextDecoder('utf-8').decode(buf); }
-      const title = decodeEntities(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || '').split(/\s*[|]\s*/)[0].trim();
-      const h1 = decodeEntities(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1] || '').replace(/<[^>]+>/g, '').trim();
-      fresh.push({ href, text: title || h1 || href });
-    } catch { fresh.push({ href, text: href }); }
+    try { fresh.push({ href, text: await fotopixTitle(href) }); } catch { fresh.push({ href, text: href }); }
   }
-  if (!fresh.length) { console.log('Nenhum álbum novo.'); process.exit(0); }
+  // Conserta títulos antigos quebrados (sem data, só o link, ou com &amp;).
+  let repaired = 0;
+  for (const l of existing) {
+    if (/\d{2}\/{1,2}\d{2}\/\d{4}/.test(l.text) && l.text !== l.href && !/&(amp|quot|#\d+);/.test(l.text)) continue;
+    try {
+      const t = await fotopixTitle(l.href);
+      if (t !== l.href && t !== l.text) { console.log(`Corrigido: ${l.text} -> ${t}`); l.text = t; repaired++; }
+    } catch {}
+  }
+  if (!fresh.length && !repaired) { console.log('Nenhum álbum novo.'); process.exit(0); }
   const all = [...fresh, ...existing];
   fs.writeFileSync('links-data.js', `// Gerado automaticamente por update_links.py\n// Fonte: https://fotopix.com.br/\n// Atualizado em: ${TS}\nwindow.LINKS_DATA = {\n  "updated_at": "${TS}",\n  "links": ${JSON.stringify(all, null, 4)}\n};`);
-  console.log(`Álbuns novos (+${fresh.length}):\n` + fresh.map(l => '- ' + l.text).join('\n'));
+  console.log(`Álbuns novos (+${fresh.length}), títulos corrigidos: ${repaired}\n` + fresh.map(l => '- ' + l.text).join('\n'));
 } else {
   console.error('Uso: node scripts/sync-fotopix.mjs linktree|nicolabragafoto|fotopix');
   process.exit(2);
