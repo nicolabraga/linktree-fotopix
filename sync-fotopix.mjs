@@ -108,14 +108,20 @@ if (MODE === 'linktree') {
   // Repo nicolabraga/linktree-fotopix: varre 6 meses.
   // Título = <title> sem o sufixo " | Fortaleza, CE" (só corta no "|" com espaços,
   // porque o próprio nome pode ter "|", ex.: "Tarde|Noite"). Fallback <h1>.
+  // Padrão final: "Nome - Fortaleza - DD/MM/AAAA" (tudo depois da data sai, ex.: " - Álbum de Fotos de Corrida").
+  const tidy = t => {
+    t = t.replace(/\s-(\d{2}\/)/, ' - $1').trim();
+    const cut = t.match(/^(.*?\d{2}\/{1,2}\d{2}\/\d{4})/);
+    return cut ? cut[1] : t;
+  };
   const fotopixTitle = async href => {
     const r = await get(href);
     const buf = await r.arrayBuffer();
     const cs = (r.headers.get('content-type') || '').match(/charset=([^\s;]+)/i)?.[1] || 'utf-8';
     let html;
     try { html = new TextDecoder(cs).decode(buf); } catch { html = new TextDecoder('utf-8').decode(buf); }
-    const title = decodeEntities(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || '').replace(/\s+/g, ' ')
-      .split(/\s+\|\s+/)[0].replace(/\s-(\d{2}\/)/, ' - $1').trim();
+    const title = tidy(decodeEntities(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || '').replace(/\s+/g, ' ')
+      .split(/\s+\|\s+/)[0]);
     const h1 = decodeEntities(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1] || '').replace(/<[^>]+>/g, '').trim();
     return title || h1 || href;
   };
@@ -128,6 +134,10 @@ if (MODE === 'linktree') {
   }
   // Conserta títulos antigos quebrados (sem data, só o link, ou com &amp;).
   let repaired = 0;
+  for (const l of existing) {
+    const t = tidy(l.text);
+    if (t !== l.text) { l.text = t; repaired++; }
+  }
   for (const l of existing) {
     if (/\d{2}\/{1,2}\d{2}\/\d{4}/.test(l.text) && l.text !== l.href && !/&(amp|quot|#\d+);/.test(l.text)) continue;
     try {
