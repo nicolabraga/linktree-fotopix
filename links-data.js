@@ -1,12 +1,20 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 28/09/2026 19:09
+// Atualizado em: 29/09/2026 07:31
 window.LINKS_DATA = {
-  "updated_at": "28/09/2026 19:09",
+  "updated_at": "29/09/2026 07:31",
   "links": [
     {
+        "href": "https://fotopix.com.br/album/285313",
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 29/09/2026 - Álbum de Fotos de Corrida"
+    },
+    {
+        "href": "https://fotopix.com.br/album/285311",
+        "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 29/09/2026 - Álbum de Fotos de Ciclismo"
+    },
+    {
         "href": "https://fotopix.com.br/album/285310",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 28/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/28530a",
@@ -14,7 +22,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/27f914",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 27/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/27f912",
@@ -26,7 +34,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/27f90f",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 26/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/27f90d",
@@ -38,7 +46,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/27f90a",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 25/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/27f908",
@@ -46,7 +54,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/27f902",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 24/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/27f900",
@@ -58,7 +66,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/27f8f7",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 23/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/27f8f1",
@@ -66,7 +74,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/27eeb1",
-        "text": "https://fotopix.com.br/album/27eeb1"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 22/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/27eeaf",
@@ -78,7 +86,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/27dbdf",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 21/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/27dbb8",
@@ -86,11 +94,11 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/278cad",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 20/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/278cc2",
-        "text": "SANTANDER TRACK&amp;FIELD RUN SERIES - SHOPPING DEL PASEO IICorrida - 2026 - Fortaleza 20/09/2026 - Álbum de Fotos de Corrida"
+        "text": "SANTANDER TRACK&FIELD RUN SERIES - SHOPPING DEL PASEO II - Corrida - 2026 - Fortaleza 20/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/278cab",
@@ -98,7 +106,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/278ca4",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 19/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/27b654",
@@ -110,7 +118,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/278ca0",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 18/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/278c9f",
@@ -118,7 +126,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/278c9c",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 17/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/278c9b",
@@ -146,7 +154,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/276fbb",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 14/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/276f68",
@@ -158,7 +166,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/27067f",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 12/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/274d79",
@@ -170,7 +178,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/270623",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 11/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/270622",
@@ -178,7 +186,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/270617",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 10/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/270612",
@@ -190,7 +198,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/270606",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 09/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/270604",
@@ -206,7 +214,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/2705b6",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 07/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/2705aa",
@@ -214,7 +222,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/26b41a",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 06/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/26b426",
@@ -246,7 +254,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/26b3fe",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 02/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/26b3fc",
@@ -254,7 +262,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/26ad41",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 01/09/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/26ad40",
@@ -266,7 +274,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/26a5ee",
-        "text": "Treino Beira Mar Corrida Tarde"
+        "text": "Treino Beira Mar Corrida Tarde|Noite - Fortaleza - 31/08/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/26a5dd",
@@ -282,7 +290,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/265263",
-        "text": "Treino Beira Mar Corrida - Tarde"
+        "text": "Treino Beira Mar Corrida - Tarde|Noite - Fortaleza - 29/08/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/265262",
@@ -290,7 +298,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/26525e",
-        "text": "Treino Beira Mar Corrida - Tarde"
+        "text": "Treino Beira Mar Corrida - Tarde|Noite - Fortaleza - 28/08/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/26525d",
@@ -810,7 +818,7 @@ window.LINKS_DATA = {
     },
     {
         "href": "https://fotopix.com.br/album/22ce94",
-        "text": "Track&amp;Field - Fortaleza 28/06/2026 - Álbum de Fotos de Corrida"
+        "text": "Track&Field - Fortaleza 28/06/2026 - Álbum de Fotos de Corrida"
     },
     {
         "href": "https://fotopix.com.br/album/22ce2d",
