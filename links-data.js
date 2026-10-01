@@ -5,6 +5,10 @@ window.LINKS_DATA = {
   "updated_at": "01/10/2026 07:40",
   "links": [
     {
+        "href": "https://fotopix.com.br/album/285321",
+        "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 01/10/2026"
+    },
+    {
         "href": "https://fotopix.com.br/album/28531b",
         "text": "Treino Sabiaguaba Ciclismo CE010 - Fortaleza - 01/10/2026"
     },
