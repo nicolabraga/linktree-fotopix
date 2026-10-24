@@ -1,9 +1,13 @@
 // Gerado automaticamente por update_links.py
 // Fonte: https://fotopix.com.br/
-// Atualizado em: 24/10/2026 08:00
+// Atualizado em: 24/10/2026 09:00
 window.LINKS_DATA = {
-  "updated_at": "24/10/2026 08:00",
+  "updated_at": "24/10/2026 09:00",
   "links": [
+    {
+        "href": "https://fotopix.com.br/album/29b16c",
+        "text": "Corre do Lula - Corrida Corrida Manhã - Fortaleza - 24/10/2026"
+    },
     {
         "href": "https://fotopix.com.br/album/296523",
         "text": "Treino Beira Mar Corrida Manhã - Fortaleza - 24/10/2026"
