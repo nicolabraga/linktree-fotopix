@@ -17,10 +17,10 @@ const parts = Object.fromEntries(new Intl.DateTimeFormat('en-GB', {
 const TS = `${parts.day}/${parts.month}/${parts.year} ${parts.hour}:${parts.minute}`;
 const ISO = `${parts.year}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}:${parts.second}-03:00`;
 
-async function get(url) {
+async function get(url, headers = HEADERS) {
   for (let i = 1; ; i++) {
     try {
-      const r = await fetch(url, { headers: HEADERS });
+      const r = await fetch(url, { headers });
       if (!r.ok) throw new Error(`${url} -> HTTP ${r.status}`);
       return r;
     } catch (e) {
@@ -36,17 +36,37 @@ const decodeEntities = s => s
   .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'")
   .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ');
 
+// Listagem: o fotopix (plataforma Banlek) desativou whitelabel/albuns_recentes.php em 27/10/2026.
+// Agora os álbuns vêm da API GraphQL da Banlek (persisted query GetAlbumByUserQuery, sem login).
+const GQL_URL = 'https://graphql.banlek.com/graphql';
+const GQL_HASH = '0890b8c122390fb39be001b264c39c3f1704c89fb0dad971439bacc7024ac4e6';
+const API_TITLES = new Map(); // href -> título vindo da API
+
 async function listHrefs(months = 2) {
-  const y = +parts.year, m = +parts.month;
-  const ids = [];
-  for (let i = 0; i < months; i++) {
-    const d = new Date(Date.UTC(y, m - 1 - i, 1));
-    const url = `https://fotopix.com.br/whitelabel/albuns_recentes.php?id_fotografo=${ID_FOTO}&ano=${d.getUTCFullYear()}&mes=${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
-    const html = await (await get(url)).text();
-    ids.push(...[...html.matchAll(/tela_album_white_label\((\d+)\)/g)].map(x => +x[1]));
+  const pages = months > 2 ? 3 : 2; // 32 álbuns por página (~1 mês de treinos)
+  const hrefs = [];
+  for (let page = 1; page <= pages; page++) {
+    const qs = new URLSearchParams({
+      operationName: 'GetAlbumByUserQuery',
+      variables: JSON.stringify({ id_fotografo: ID_FOTO, periodo: 'passados', nav: { page, itemsPerPage: 32 } }),
+      extensions: JSON.stringify({ persistedQuery: { version: 1, sha256Hash: GQL_HASH } }),
+    });
+    const r = await get(`${GQL_URL}?${qs}`, {
+      ...HEADERS, 'content-type': 'application/json', 'accept-language': 'pt',
+      Origin: 'https://fotopix.com.br', Referer: 'https://fotopix.com.br/',
+    });
+    const j = await r.json();
+    if (j.errors?.length) throw new Error('API Banlek: ' + j.errors.map(e => e.message).join('; '));
+    const items = j.data?.albuns?.items || [];
+    for (const a of items) {
+      const href = `https://fotopix.com.br/album/${Number(a.id).toString(16)}`;
+      hrefs.push(href);
+      if (a.titulo) API_TITLES.set(href, decodeEntities(String(a.titulo)).replace(/\s+/g, ' ').trim());
+    }
+    if (items.length < 32) break;
   }
-  if (!ids.length) throw new Error('Nenhum álbum encontrado na listagem do fotopix (página mudou ou bloqueou o acesso?)');
-  return [...new Set(ids)].map(id => `https://fotopix.com.br/album/${id.toString(16)}`);
+  if (!hrefs.length) throw new Error('Nenhum álbum encontrado na API da Banlek (consulta mudou ou bloqueou o acesso?)');
+  return [...new Set(hrefs)];
 }
 
 async function fetchTitle(href) {
@@ -73,7 +93,7 @@ async function newLinksAgainst(knownHrefs) {
   const known = new Set(knownHrefs);
   const hrefs = (await listHrefs()).filter(h => !known.has(h));
   const out = [];
-  for (const href of hrefs) out.push({ href, text: await fetchTitle(href) });
+  for (const href of hrefs) out.push({ href, text: API_TITLES.get(href) || await fetchTitle(href) });
   return out;
 }
 
@@ -130,6 +150,8 @@ if (MODE === 'linktree') {
   const hrefs = (await listHrefs(6)).filter(h => !known.has(h));
   const fresh = [];
   for (const href of hrefs) {
+    const apiT = API_TITLES.get(href) && tidy(API_TITLES.get(href));
+    if (apiT) { fresh.push({ href, text: apiT }); continue; }
     try { fresh.push({ href, text: await fotopixTitle(href) }); } catch { fresh.push({ href, text: href }); }
   }
   // Conserta títulos antigos quebrados (sem data, só o link, ou com &amp;).
