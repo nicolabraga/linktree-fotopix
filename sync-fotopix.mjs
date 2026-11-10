@@ -42,21 +42,45 @@ const GQL_URL = 'https://graphql.banlek.com/graphql';
 const GQL_HASH = '0890b8c122390fb39be001b264c39c3f1704c89fb0dad971439bacc7024ac4e6';
 const API_TITLES = new Map(); // href -> título vindo da API
 
+const GQL_HEADERS = {
+  ...HEADERS, 'content-type': 'application/json', 'accept-language': 'pt',
+  Origin: 'https://fotopix.com.br', Referer: 'https://fotopix.com.br/',
+};
+// Fallback APQ: se o servidor perder o hash do cache (PersistedQueryNotFound), reenvia a query completa via POST.
+const GQL_FALLBACK_QUERY = 'query GetAlbumByUserQuery($id_fotografo: Int, $periodo: String, $nav: NavInput) { albuns(id_fotografo: $id_fotografo, periodo: $periodo, nav: $nav) { items { id titulo } } }';
+
+async function fetchAlbumsPage(page) {
+  const variables = { id_fotografo: ID_FOTO, periodo: 'passados', nav: { page, itemsPerPage: 32 } };
+  const qs = new URLSearchParams({
+    operationName: 'GetAlbumByUserQuery',
+    variables: JSON.stringify(variables),
+    extensions: JSON.stringify({ persistedQuery: { version: 1, sha256Hash: GQL_HASH } }),
+  });
+  let j = await (await get(`${GQL_URL}?${qs}`, GQL_HEADERS)).json();
+  if (j.errors?.some(e => /PersistedQueryNotFound/i.test(e.message))) {
+    console.warn('API Banlek: PersistedQueryNotFound -> reenviando a query completa (POST)');
+    for (let i = 1; ; i++) {
+      try {
+        const r = await fetch(GQL_URL, { method: 'POST', headers: GQL_HEADERS,
+          body: JSON.stringify({ operationName: 'GetAlbumByUserQuery', query: GQL_FALLBACK_QUERY, variables }) });
+        if (!r.ok) throw new Error(`${GQL_URL} (POST) -> HTTP ${r.status}`);
+        j = await r.json();
+        break;
+      } catch (err) {
+        if (i >= 3) throw err;
+        await new Promise(res => setTimeout(res, 5000));
+      }
+    }
+  }
+  if (j.errors?.length) throw new Error('API Banlek: ' + j.errors.map(e => e.message).join('; '));
+  return j;
+}
+
 async function listHrefs(months = 2) {
   const pages = months > 2 ? 3 : 2; // 32 álbuns por página (~1 mês de treinos)
   const hrefs = [];
   for (let page = 1; page <= pages; page++) {
-    const qs = new URLSearchParams({
-      operationName: 'GetAlbumByUserQuery',
-      variables: JSON.stringify({ id_fotografo: ID_FOTO, periodo: 'passados', nav: { page, itemsPerPage: 32 } }),
-      extensions: JSON.stringify({ persistedQuery: { version: 1, sha256Hash: GQL_HASH } }),
-    });
-    const r = await get(`${GQL_URL}?${qs}`, {
-      ...HEADERS, 'content-type': 'application/json', 'accept-language': 'pt',
-      Origin: 'https://fotopix.com.br', Referer: 'https://fotopix.com.br/',
-    });
-    const j = await r.json();
-    if (j.errors?.length) throw new Error('API Banlek: ' + j.errors.map(e => e.message).join('; '));
+    const j = await fetchAlbumsPage(page);
     const items = j.data?.albuns?.items || [];
     for (const a of items) {
       const href = `https://fotopix.com.br/album/${Number(a.id).toString(16)}`;
